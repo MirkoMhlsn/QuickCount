@@ -2,8 +2,11 @@ package android.example.quickcount;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.example.quickcount.excercises.Exercise;
 import android.os.Bundle;
 import android.widget.ProgressBar;
+
+import java.util.stream.Stream;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -17,6 +20,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public static void main(String[] args) {
+        //Exercise exercise = new Exercise();
+        //Stream s = Stream.generate(exercise::generate);
 
     }
 

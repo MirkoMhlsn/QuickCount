@@ -3,8 +3,10 @@ package android.example.quickcount.excercises;
 
 public abstract class Exercise {
 
-    int alter;
+    int age;
 
-    public abstract int getAlter();
+    public abstract int getAge();
+
+    public abstract Exercise generate();
 
 }
