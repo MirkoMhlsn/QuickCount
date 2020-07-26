@@ -18,6 +18,14 @@ public class Fraction {
         return denominator;
     }
 
+    public Fraction multiplyWith(Fraction y){
+        return new Fraction(this.numerator*y.getNumerator(), this.denominator*y.getDenominator());
+    }
+
+    public boolean isGreaterThan(Fraction y){
+        return this.numerator*y.getDenominator() > y.getNumerator()*this.denominator;
+    }
+
     public Fraction reduce(){
         return new Fraction(numerator/gcd(), denominator/gcd());
     }
@@ -33,4 +41,8 @@ public class Fraction {
             return gcd(Math.max(a, b)%Math.min(a, b), Math.min(a, b));
     }
 
+    public boolean isEqualTo(Fraction y){
+        y = y.reduce();
+        return this.numerator == y.getNumerator() && this.denominator == y.getDenominator();
+    }
 }
