@@ -38,7 +38,7 @@ public class Fraction {
         if(a == 0)
             return b;
         else
-            return gcd(Math.max(a, b)%Math.min(a, b), Math.min(a, b));
+            return gcd(Math.max(a, b) % Math.min(a, b), Math.min(a, b));
     }
 
     public boolean isEqualTo(Fraction y){

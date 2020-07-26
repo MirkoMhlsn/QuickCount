@@ -2,6 +2,7 @@ package android.example.quickcount;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.example.quickcount.commons.Fraction;
 import android.example.quickcount.commons.Numbers;
 import android.example.quickcount.exercises.ExerciseSelector;
 import android.example.quickcount.exercises.circle.concreteCircleExercises.circleFraction.CircleFractionActivity;
@@ -20,6 +21,9 @@ public class MainActivity extends AppCompatActivity {
     @Deprecated
     public static final int UPPER_BOUND = 12;
 
+    @Deprecated
+    public static final Fraction X = Numbers.newRandomFraction(LOWER_BOUND, UPPER_BOUND);
+
     ProgressBar pb = new ProgressBar(this);
 
     @Override
@@ -34,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
         /*TODO maybe it is more readable if the whole list of exercises is passed as a List<E> and not with varargs*/
 
         Stream s = Stream.generate(() -> ExerciseSelector.randomExercise(
-                        Numbers.newRandomFraction(LOWER_BOUND, UPPER_BOUND),
+                        X,
                         CircleFractionAnswer::new,
                         CircleFractionActivity::new
                 ));

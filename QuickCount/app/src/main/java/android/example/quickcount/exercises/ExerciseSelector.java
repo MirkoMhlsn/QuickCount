@@ -8,9 +8,9 @@ public class ExerciseSelector {
 
     public static Exercise randomExercise(Fraction x, Function<Fraction, Exercise>... exercises){
 
-        int select = Commons.randomInteger(0, exercises.length-1);
+        int select = Commons.randomInteger(0, exercises.length - 1);
+        System.out.println(select);
         return exercises[select].apply(x);
 
     }
-
 }
