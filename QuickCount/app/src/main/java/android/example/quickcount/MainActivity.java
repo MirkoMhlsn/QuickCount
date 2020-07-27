@@ -36,7 +36,6 @@ public class MainActivity extends AppCompatActivity {
     public static void main(String[] args) {
 
         /*TODO maybe it is more readable if the whole list of exercises is passed as a List<E> and not with varargs*/
-
         Stream s = Stream.generate(() -> ExerciseSelector.randomExercise(
                         X,
                         CircleFractionAnswer::new,
