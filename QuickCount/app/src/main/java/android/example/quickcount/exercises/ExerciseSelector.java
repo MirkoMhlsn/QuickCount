@@ -24,5 +24,4 @@ public class ExerciseSelector {
         return exercises.get(select).apply(x);
 
     }
-
 }
