@@ -1,10 +1,11 @@
-package android.example.quickcount.exercises.circle.concreteCircleExercises.circleFraction;
+package android.example.quickcount.exercises.circle.concreteCircleExercises;
 
 
 import android.example.quickcount.commons.Fraction;
+import android.example.quickcount.exercises.circle.CircleExercise;
 import android.example.quickcount.interaction.ActivityInteraction;
 
-public class CircleFractionActivity extends CircleFraction implements ActivityInteraction {
+public class CircleFractionActivity extends CircleExercise implements ActivityInteraction {
 
     private Fraction x;
 

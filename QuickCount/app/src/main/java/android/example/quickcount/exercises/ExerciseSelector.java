@@ -2,10 +2,7 @@ package android.example.quickcount.exercises;
 
 import android.example.quickcount.commons.Commons;
 import android.example.quickcount.commons.Fraction;
-import android.example.quickcount.exercises.circle.concreteCircleExercises.circleFraction.CircleFractionActivity;
-import android.example.quickcount.exercises.circle.concreteCircleExercises.circleFraction.CircleFractionAnswer;
 
-import java.util.Arrays;
 import java.util.List;
 import java.util.function.Function;
 

@@ -6,10 +6,9 @@ import android.example.quickcount.commons.Fraction;
 import android.example.quickcount.commons.Numbers;
 import android.example.quickcount.exercises.Exercise;
 import android.example.quickcount.exercises.ExerciseSelector;
-import android.example.quickcount.exercises.circle.concreteCircleExercises.circleFraction.CircleFractionActivity;
-import android.example.quickcount.exercises.circle.concreteCircleExercises.circleFraction.CircleFractionAnswer;
+import android.example.quickcount.exercises.circle.concreteCircleExercises.CircleFractionActivity;
+import android.example.quickcount.exercises.circle.concreteCircleExercises.CircleFractionAnswer;
 import android.os.Bundle;
-import android.widget.ProgressBar;
 
 import java.util.Arrays;
 import java.util.List;

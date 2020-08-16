@@ -1,8 +1,8 @@
 package android.example.quickcount.exercises;
 
 import android.example.quickcount.commons.Fraction;
-import android.example.quickcount.exercises.circle.concreteCircleExercises.circleFraction.CircleFractionActivity;
-import android.example.quickcount.exercises.circle.concreteCircleExercises.circleFraction.CircleFractionAnswer;
+import android.example.quickcount.exercises.circle.concreteCircleExercises.CircleFractionActivity;
+import android.example.quickcount.exercises.circle.concreteCircleExercises.CircleFractionAnswer;
 
 import org.junit.Test;
 
